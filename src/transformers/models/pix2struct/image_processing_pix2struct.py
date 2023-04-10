@@ -45,7 +45,7 @@ if is_torch_available():
 
 
 logger = logging.get_logger(__name__)
-DEFAULT_FONT_PATH = "/kaggle/input/deplot-base-version/deplot-base"
+DEFAULT_FONT_PATH = "/kaggle/input/deplot-base-version/Arial.tiff"
 
 
 # adapted from: https://discuss.pytorch.org/t/tf-image-extract-patches-in-pytorch/171409/2
