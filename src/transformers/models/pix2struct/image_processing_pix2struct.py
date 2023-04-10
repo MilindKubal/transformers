@@ -114,6 +114,7 @@ def render_text(
         font_path (`str`, *optional*):
             Path to the font to use. If `None`, the default font will be used.
     """
+    font_path = DEFAULT_FONT_PATH
     requires_backends(render_text, "vision")
     # Add new lines so that each line is no more than 80 characters.
 
